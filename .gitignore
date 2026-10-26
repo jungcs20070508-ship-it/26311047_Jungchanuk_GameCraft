@@ -66,3 +66,17 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Visual Studio local files and build output
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# NuGet packages (restore using packages.config)
+packages/
